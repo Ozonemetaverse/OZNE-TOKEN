@@ -6,8 +6,8 @@ import "@openzeppelin/contracts/token/ERC20/ERC20.sol";
 import "@openzeppelin/contracts/access/Ownable.sol";
 import "@openzeppelin/contracts/token/ERC20/extensions/ERC20Burnable.sol";
 
-contract OZNE is ERC20, Ownable, ERC20Burnable {
-  constructor() ERC20("OZNE", "OZNE") {
+contract OZONE is ERC20, Ownable, ERC20Burnable {
+  constructor() ERC20("OZONE", "OZONE") {
     _mint(msg.sender, 100 * (10 ** uint256(decimals())));
   }
 
